@@ -52,7 +52,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="#3949AB"
+                android:textSize="18sp"
+                android:background="#031738"
                 android:text="@string/load_image"
                 android:textColor="@color/white">
             </androidx.appcompat.widget.AppCompatButton>

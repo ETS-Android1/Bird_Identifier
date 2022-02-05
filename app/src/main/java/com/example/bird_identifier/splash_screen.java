@@ -19,6 +19,7 @@ public class splash_screen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
         txt=findViewById(R.id.apptitle);
         getSupportActionBar().hide();
+        getWindow().setStatusBarColor(getResources().getColor(R.color.status));
         Animation anim= AnimationUtils.loadAnimation(this,R.anim.anim);
         txt.startAnimation(anim);
         new Handler().postDelayed(new Runnable() {
